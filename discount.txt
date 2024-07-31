@@ -1,0 +1,16 @@
+class HelloWorld {
+    public static void main(String[] args) {
+       String product="shoes";
+       String str="online";
+       int bankbalance=15000;
+       double price=20000 ,newprice;
+       double coupen=(3*price)/100; 
+       if(str=="online" && bankbalance>=15000){
+           newprice=price-coupen;
+       System.out.println("discount available for online purchase : "+newprice );
+        
+       } 
+        else
+        System.out.println("discount not available for offline: " + price);
+    }
+}

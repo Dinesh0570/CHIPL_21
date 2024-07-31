@@ -1,0 +1,20 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        String name="Ravikuuran";
+        char section='B';
+        double s1=12,s2=67,s3=35,s4=45,s5=65,s6=93,fee=50000;
+        
+        double total=s1+s2+s3+s4+s5+s6;
+        double per=(total/600)*100;
+        if(per>80)
+        {
+            double sch=fee-10000;
+            System.out.println(sch);
+        }
+        else
+        {
+            double fees=fee+20000;
+            System.out.println(fees);
+        }
+    }
+}
